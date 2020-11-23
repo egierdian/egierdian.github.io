@@ -1,6 +1,6 @@
 /* Body */
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Comfortaa', cursive;
     color: #dadce6;
     background-color: #3F4254;
 }
@@ -21,8 +21,8 @@ body {
     height: 30px;
 }
 .custom-nav .navbar-brand span {
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 1.6rem;
+    font-weight: 700;
     margin-left: 10px;
     color: #3d97d3;
 }
@@ -110,14 +110,22 @@ footer {
     text-align: center;
 }
 .custom-footer p {
+    
     margin-bottom: 10px;
     color: #dadce6;
 }
 .custom-footer a {
     background-color: rgb(24, 23, 23);
+    box-shadow: 3px 5px 3px rgb(20, 20, 20);
     padding: 2px 15px;
     border-radius: 5px;
     color: #dadce6;
     text-decoration: none;
+}
+.custom-footer a:hover {
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-bottom: -3px;
+    box-shadow: none;
 }
 
