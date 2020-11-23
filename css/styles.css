@@ -86,7 +86,32 @@ body {
     background-color: #4a4e63;
     box-shadow: 5px 7px 5px 5px rgb(20, 20, 20);
 }
+#about .container .card .card-body .languages-card {
+    padding-top: 10px;
+}
+#about .container .card .card-body .tools-card {
+    padding-top: 20px;
+}
 
+#about .container .card .card-body .languages-card .bg-blue {
+    background-color: #3F4254;
+}
+#about .container .card .card-body .languages-card .custom-card {
+    text-align: center;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 3px;
+    box-shadow: 5px 5px 3px 2px rgb(20, 20, 20);
+    margin-bottom: 10px;
+}
+#about .container .card .card-body .tools-card .custom-card {
+    text-align: center;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 3px;
+    box-shadow: 5px 5px 3px 2px rgb(20, 20, 20);
+    margin-bottom: 10px;
+}
 /* portfolio */
 #portfolio {
     padding: 30px 0px;
@@ -104,13 +129,14 @@ footer {
     padding-top: 50px;
 }
 .custom-footer {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.0rem;
     padding: 30px 0px;
     background-color: #585c7a;
     min-height: 100px;
     text-align: center;
 }
 .custom-footer p {
-    
     margin-bottom: 10px;
     color: #dadce6;
 }
