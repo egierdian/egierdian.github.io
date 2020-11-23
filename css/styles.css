@@ -92,9 +92,20 @@ body {
 #about .container .card .card-body .tools-card {
     padding-top: 20px;
 }
+#about .container .card .card-body .databases-card {
+    padding-top: 20px;
+}
 
 #about .container .card .card-body .languages-card .bg-blue {
-    background-color: #3F4254;
+    background-color: #3d4364;
+}
+#about .container .card .card-body .databases-card .custom-card {
+    text-align: center;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 3px;
+    box-shadow: 5px 5px 3px 2px rgb(20, 20, 20);
+    margin-bottom: 10px;
 }
 #about .container .card .card-body .languages-card .custom-card {
     text-align: center;
@@ -112,6 +123,7 @@ body {
     box-shadow: 5px 5px 3px 2px rgb(20, 20, 20);
     margin-bottom: 10px;
 }
+
 /* portfolio */
 #portfolio {
     padding: 30px 0px;
@@ -122,7 +134,41 @@ body {
     background-color: #4a4e63;
     box-shadow: 5px 7px 5px 5px rgb(20, 20, 20);
 }
-
+#portfolio .container .card .card-body .all-portfolio {
+    padding-top: 20px;
+}
+#portfolio .container .card .card-body .all-portfolio h4{
+    padding-bottom: 10px;
+}
+#portfolio .container .card .card-body .all-portfolio .portfolio-card {
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px 2px rgb(20, 20, 20);
+    margin-bottom: 30px;
+}
+#portfolio .container .card .card-body .all-portfolio .portfolio-card .card-body p{
+    padding-top: 10px;
+}
+#portfolio .container .card .card-body .all-portfolio .portfolio-card .card-body p span{
+    line-height: 1.8rem;
+    background-color: #3d4364;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-bottom: 100px;
+}
+#portfolio .container .card .card-body .all-portfolio .portfolio-card:hover {
+    margin-bottom: 35px;
+    margin-top: -5px;    
+}
+#portfolio .container .card .card-body .all-portfolio .portfolio-card .btn-view {
+    background-color: #585c7a;
+    padding: 20px 20px;
+}
+#portfolio .container .card .card-body .all-portfolio .portfolio-card .portfolio-btn {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* footer */
 footer {
