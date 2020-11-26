@@ -110,7 +110,7 @@ const bodyHome = () => {
     var bodyHome = document.getElementById('body-content');
     bodyHome.innerHTML =
     `
-    <section id="jumbotron">
+    <section id="home">
         <div class="container">
             <div class="card-body">
                 <img src="images/Profil.jpg" class="rounded-circle">
