@@ -1,24 +1,15 @@
 /* Body */
 body {
     font-family: 'Comfortaa', cursive;
-    color: #dadce6;
-    background-color: #3F4254;
+    color: black;
+    background-color: #e2dedee0;
 }
 
 /* navbar */
 .custom-nav {
     background-color: #3F4254;
     padding-top: 20px;
-    padding-bottom: 5px;
-}
-.custom-nav .container {
-    padding-bottom: 25px;
-    border-bottom: 2px dotted #4a4e63;
-}
-.custom-nav .navbar-brand img {
-    margin-top:-5px;
-    width: 30px;
-    height: 30px;
+    padding-bottom: 20px;
 }
 .custom-nav .navbar-brand span {
     font-size: 1.6rem;
@@ -27,66 +18,74 @@ body {
     color: #3d97d3;
 }
 .custom-nav .navbar-nav .nav-link{
-    margin-top: 7px;
-    margin-right: 7px;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left: 5px;
+    margin-right: 2px;
     padding-left: 15px;
     padding-right: 15px;
     color: #f2f3f7;
 }
 .custom-nav .navbar-nav .btn-dark {
     border: none;
-    box-shadow: 5px 7px 5px rgb(20, 20, 20);
-    border-radius: 7px;
 }
 .custom-nav .navbar-nav a:hover{
-    margin-top: 10px;
-    margin-bottom: -5px;
     transition: 0.8s;
     box-shadow: none;
+    background-color: #4a4e63;
+}
+/* jumbotron */
+.jumbotron {
+    background-image: url("../images/bg.jpg");
+    height: 400px;
 }
 
 /* home */
 #home {
-    /* margin-top: -30px; */
+    margin-top: -400px;
     padding-top: 30px;
     padding-bottom: 35px;
 }
-#home  {
-    padding-bottom: 30px;
-    background-color: #3F4254;
-}
-#home  .container .card-body{
-    background-color: #4a4e63;
-    border-radius: 10px;
-    text-align: center;
-    padding: 50px 30px;
-    box-shadow: 5px 7px 5px 5px rgb(20, 20, 20);
-}
-#home  .container .card-body img{
-    margin-top: 20px;
-    width: 250px;
-    height: 250px;
-}
-#home  .container .card-body .social-media {
-    margin-bottom: 50px;
+#home .container .card {
+    padding: 50px;
+    box-shadow: 2px 0px 10px 1px rgb(68, 67, 67);
+    border-radius: 0px;
 }
 #home  .container .card-body .diplay-name{
-    margin-top: 30px;
     font-weight: 700;
     color: #3d97d3;
 }
-
+#home .container .social-media {
+    background-color: #585c7a;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 0px 10px 1px rgb(68, 67, 67);
+}
+#home .container .social-media .btn {
+    width: 50px;
+}
+#home .container .social-media ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+#home .container .social-media ul li {
+    display: inline;
+    margin-right: 15px;
+    margin-left: 15px;
+}
 /* about */
 #about {
-    /* margin-top: -30px; */
+    margin-top: -400px;
     padding-top: 30px;
     padding-bottom: 35px; 
 }
 #about .container .card {
-    padding: 50px 30px;
-    border-radius: 10px;
-    background-color: #4a4e63;
-    box-shadow: 5px 7px 5px 5px rgb(20, 20, 20);
+    padding: 50px;
+    background-color: #ffffff;
+    box-shadow: 2px 0px 10px 1px rgb(68, 67, 67);
+    border-radius: 0px;
 }
 #about .container .card .card-body .languages-card {
     padding-top: 10px;
@@ -128,13 +127,14 @@ body {
 
 /* portfolio */
 #portfolio {
+    margin-top: -400px;
     padding: 30px 0px;
 }
 #portfolio .container .card {
     padding: 50px 30px;
-    border-radius: 10px;
-    background-color: #4a4e63;
-    box-shadow: 5px 7px 5px 5px rgb(20, 20, 20);
+    border-radius: 0px;
+    background-color: #ffffff;
+    box-shadow: 2px 0px 10px 1px rgb(68, 67, 67);
 }
 #portfolio .container .card .card-body .all-portfolio {
     padding-top: 20px;
@@ -143,9 +143,9 @@ body {
     padding-bottom: 10px;
 }
 #portfolio .container .card .card-body .all-portfolio .portfolio-card {
-    border: 3px solid black;
-    border-radius: 5px;
-    box-shadow: 5px 5px 3px 2px rgb(20, 20, 20);
+    border-top: 10px solid #3F4254;
+    border-radius: 0px;
+    box-shadow: 2px 0px 5px 1px rgb(68, 67, 67);
     margin-bottom: 30px;
 }
 #portfolio .container .card .card-body .all-portfolio .portfolio-card .card-body p{
@@ -154,6 +154,7 @@ body {
 #portfolio .container .card .card-body .all-portfolio .portfolio-card .card-body p span{
     line-height: 1.8rem;
     background-color: #3d4364;
+    color: white;
     border-radius: 10px;
     padding: 5px 10px;
     font-size: 12px;
