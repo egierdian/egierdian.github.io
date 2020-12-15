@@ -23,13 +23,6 @@ const bodyAbout = () =>{
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-sm-6 col-12">
-                                        <div class="custom-card">
-                                            <p class="card-text">
-                                                HTML & CSS
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-6 col-12">
                                         <div class="custom-card bg-blue">
                                             <p class="card-text">
                                                 PHP
@@ -59,6 +52,39 @@ const bodyAbout = () =>{
                                         <div class="custom-card bg-primary">
                                             <p class="card-text text-white">
                                                 Firebase
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="front-end-card">
+                                <h4>Front End</h4>
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-6 col-12">
+                                        <div class="custom-card bg-primary">
+                                            <p class="card-text text-white">
+                                                HTML
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-12">
+                                        <div class="custom-card bg-primary">
+                                            <p class="card-text text-white">
+                                                CSS
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-12">
+                                        <div class="custom-card bg-primary">
+                                            <p class="card-text text-white">
+                                                Bootstrap 4
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-12">
+                                        <div class="custom-card bg-primary">
+                                            <p class="card-text text-white">
+                                                Materiallize
                                             </p>
                                         </div>
                                     </div>
@@ -234,28 +260,7 @@ const bodyPortfolio = () => {
                                         <div class="portfolio-card">
                                             <!-- <img class="card-img-top" src="images/images.png"> -->
                                             <div class="card-body">
-                                                <h5>E-Loker</h5>
-                                                <p class="card-text">
-                                                    <span>Vanilla JS</span> 
-                                                    <span>Firebase</span>
-                                                    <span>HTML</span>
-                                                    <span>CSS</span>
-                                                    <span>Bootstrap 4</span>
-                                                </p>
-                                            </div>
-                                            <div class="btn-view">
-                                                <div class="portfolio-btn">
-                                                    <a class="btn btn-dark" href="https://github.com/egierdian/e-loker"><i class="fa fa-github"></i></a>
-                                                    <a class="btn btn-dark" href="https://e-loker.web.app/"><i class="fa fa-eye"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-12 col-12">
-                                        <div class="portfolio-card">
-                                            <!-- <img class="card-img-top" src="images/images.png"> -->
-                                            <div class="card-body">
-                                                <h5>e-Covid</h5>
+                                                <h5>Informasi Covid</h5>
                                                 <p class="card-text">
                                                     <span>Vanilla JS</span> 
                                                     <span>Firebase</span>

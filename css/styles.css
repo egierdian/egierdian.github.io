@@ -97,7 +97,9 @@ body {
 #about .container .card .card-body .databases-card {
     padding-top: 20px;
 }
-
+#about .container .card .card-body .front-end-card {
+    padding-top: 20px;
+}
 #about .container .card .card-body .languages-card .bg-blue {
     background-color: #3d4364;
 }
@@ -110,6 +112,14 @@ body {
     margin-bottom: 10px;
 }
 #about .container .card .card-body .languages-card .custom-card {
+    text-align: center;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 3px;
+    box-shadow: 5px 5px 3px 2px rgb(20, 20, 20);
+    margin-bottom: 10px;
+}
+#about .container .card .card-body .front-end-card .custom-card {
     text-align: center;
     padding: 5px;
     border: 3px solid black;
@@ -132,7 +142,7 @@ body {
     padding: 30px 0px;
 }
 #portfolio .container .card {
-    padding: 50px 30px;
+    padding: 50px;
     border-radius: 0px;
     background-color: #ffffff;
     box-shadow: 2px 0px 10px 1px rgb(68, 67, 67);
