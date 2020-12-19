@@ -217,10 +217,10 @@ const bodyPortfolio = () => {
                                         <div class="portfolio-card">
                                             <!-- <img class="card-img-top" src="images/images.png"> -->
                                             <div class="card-body">
-                                                <h5>at-Bandung</h5>
+                                                <h5>Aplikasi Sistem Administrasi Penjualan</h5>
                                                 <p class="card-text">
-                                                    <span>Vanilla JS</span> 
-                                                    <span>Firebase</span>
+                                                    <span>JavaScript</span> 
+                                                    <span>MySQL</span>
                                                     <span>HTML</span>
                                                     <span>CSS</span>
                                                     <span>Bootstrap 4</span>
@@ -228,8 +228,8 @@ const bodyPortfolio = () => {
                                             </div>
                                             <div class="btn-view">
                                                 <div class="portfolio-btn">
-                                                    <a class="btn btn-dark" href="https://github.com/egierdian/at-bandung"><i class="fa fa-github"></i></a>
-                                                    <a class="btn btn-dark" href="https://at-bandung.web.app"><i class="fa fa-eye"></i></a>
+                                                    <a class="btn btn-dark" href="https://github.com/egierdian/penjualan-buku-php"><i class="fa fa-github"></i></a>
+                                                    <a class="btn btn-dark" href="#"><i class="fa fa-eye"></i></a>
                                                 </div>
                                             </div>
                                         </div>
