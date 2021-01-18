@@ -196,6 +196,26 @@ const bodyPortfolio = () => {
                                 <div class="row">
                                     <div class="col-md-4 col-sm-12 col-12">
                                         <div class="portfolio-card">
+                                            <div class="card-body">
+                                                <h5>Caritakeun | Design landing page</h5>
+                                                <p class="card-text">
+                                                    <span>HTML</span>
+                                                    <span>CSS</span>
+                                                    <span>Bootstrap 4</span>
+                                                    <span>JavaScript</span>
+                                                    <span>Aos JS</span>
+                                                </p>
+                                            </div>
+                                            <div class="btn-view">
+                                                <div class="portfolio-btn">
+                                                    <a class="btn btn-dark" href="https://github.com/egierdian/disawerin"><i class="fa fa-github"></i></a>
+                                                    <a class="btn btn-dark" href="#"><i class="fa fa-eye"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-12 col-12">
+                                        <div class="portfolio-card">
                                             <!-- <img class="card-img-top" src="images/images.png"> -->
                                             <div class="card-body">
                                                 <h5>disawerin | Clone saweria</h5>
