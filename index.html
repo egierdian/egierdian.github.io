@@ -1,66 +1,262 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Personal website" />
     <meta name="author" content="Egi Erdian" />
-    <!-- Icon -->
-    <link rel="icon" type="image/x-icon" href="images/profil-egi.jpg" />
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <!-- My CSS -->
     <link rel="stylesheet" href="css/styles.css">
-    <!-- FA -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
 
-    <title>Egi Erdian | Hello world</title>
-  </head>
-  <body>
+    <!-- Icon -->
+    <link rel="icon" type="image/x-icon" href="images/profil.jpg" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- FA -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <title>I'M EGI ERDIAN</title>
+</head>
+
+<body>
     <!-- navbar  -->
-    <nav class="navbar navbar-expand-lg navbar-dark custom-nav">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
         <div class="container">
-            <a class="navbar-brand" href="#home">
-                <span>Egi Erdian</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <a class="navbar-brand" href="#">Egi Erdian</a>
+            <button class="navbar-toggler no-border" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <span><i class="fa fa-bars no-b" style="color:#FFF;"></i></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link btn btn-dark" href="#home">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link btn btn-dark" href="#about">About</a>
-                    <a class="nav-item nav-link btn btn-dark" href="#portfolio">Portfolio</a>
-                </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#profil">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
-    <!-- jumbotron -->
-    <div class="jumbotron jumbotron-fluid">
+
+    <!-- profil -->
+    <section id="profil">
         <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="col-12" style="display: flex; position: absolute; margin-top: -7vw; opacity: 0.3;">
+                        <h1 class="heading-opacity text-center">EGIERDIAN</h1>
+                    </div>
+                    <h1 class="text-center"
+                        style="color: #214151; font-size: 7vw; font-weight: 700; letter-spacing: 7px;">EGIERDIAN</h1>
+                    <p class="text-center" style="color: #214151;">
+                        WEB DEVELOPER | CIMAHI, INDONESIAN
+                    </p>
+                    <div class="col-12 text-center">
+                        <a class="btn btn-lg " style="padding: 0 15px; color:#214151;" href="https://github.com/egierdian"><i class="fa fa-github"
+                                aria-hidden="true"></i></a>
+                        <a class="btn btn-lg " style="padding: 0 15px; color:#214151;" href="https://www.linkedin.com/in/egi-erdian-21a35a196/"><i
+                                class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a class="btn btn-lg " style="padding: 0 15px; color:#214151;" href="https://fb.com/egi3rdian"><i
+                                class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <!-- Body-content -->
-    <div id="body-content"></div>
-    <!-- Footer -->
+    </section>
+    <!-- End profil -->
+
+    <!-- About -->
+    <section id="about" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center pb-3"
+                        style="color: #214151; font-size: 5vw; font-weight: 700; letter-spacing: 7px;">ABOUT</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6" style="background: white;">
+                    <!-- <img class="img-thumbnail no-border" src="images/profil.jpg"> -->
+                </div>
+                <div class="col-12 col-md-12" style="background: white;">
+                    <p>My full name is Egi Erdian, people used to call me Egi or Erdian. I am 23 years old, and
+                        currently I live in cimahi. I graduated from Vocational High School at SMK TI Pembangunan Cimahi
+                        with a major in software engineering. Currently I am continuing my education at Sekolah Tinggi
+                        Teknologi Bandung, majoring in computer science.</p>
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <h5 style="font-weight: 700;">EDUCATION</h5>
+                            <ul style="margin-left: -15px;">
+                                <li>SD Negri Cinta Karya II</li>
+                                <li>SMP Muslimin</li>
+                                <li>SMK TI Pembangunan Cimahi (2013 - 2016)</li>
+                                <li>Sekolah Tinggi Teknologi Bandung (2018 - Present)</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <h5 style="font-weight: 700;">WORK EXPERIENCE</h5>
+                            <ul style="margin-left: -15px;">
+                                <li>CV. SINAR BAGJA - Administration (2017 - 2019)</li>
+                                <li>RC Electronic - PHP Programmer (2021 - Present)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End profil -->
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center pb-3"
+                        style="color: #214151; font-size: 5vw; font-weight: 700; letter-spacing: 7px;">PORTFOLIO</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-2 pt-2">
+                    <div class="card no-border"
+                        style="display: flex; background:#a2d0c1;color:#214151;box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.15);">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h5>Caritakeun | Design landing page</h5>
+                                        <a style="padding:10px; color: #214151;" class="btn btn-lg justify-content-end"
+                                    href="https://github.com/egierdian/caritakeun"><i class="fa fa-github"
+                                        aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-2 pt-2">
+                    <div class="card no-border"
+                        style="display: flex; background:#a2d0c1;color:#214151;box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.15);">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h5>Alquranku (PWA)</h5>
+                                        <a style="padding:10px; color: #214151;" class="btn btn-lg justify-content-end"
+                                    href="https://github.com/egierdian/pwa-alquran-ku"><i class="fa fa-github"
+                                        aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-2 pt-2">
+                    <div class="card no-border"
+                        style="display: flex; background:#a2d0c1;color:#214151;box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.15);">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h5>disawerin | Clone saweria</h5>
+                                        <a style="padding:10px; color: #214151;" class="btn btn-lg justify-content-end"
+                                    href="https://github.com/egierdian/disawerin"><i class="fa fa-github"
+                                        aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-2 pt-2">
+                    <div class="card no-border"
+                        style="display: flex; background:#a2d0c1;color:#214151;box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.15);">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h5>Aplikasi Sistem Administrasi Penjualan</h5>
+                                        <a style="padding:10px; color: #214151;" class="btn btn-lg justify-content-end"
+                                    href="https://github.com/egierdian/penjualan-buku-php"><i class="fa fa-github"
+                                        aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 pb-2 pt-2">
+                    <div class="card no-border"
+                        style="display: flex; background:#a2d0c1;color:#214151;box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.15);">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h5>Informasi Covid</h5>
+                                        <a style="padding:10px; color: #214151;" class="btn btn-lg justify-content-end"
+                                    href="https://github.com/egierdian/web-covid-19"><i class="fa fa-github"
+                                        aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End portfolio -->
+
+    <!-- Contact -->
+    <section id="contact" class="pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 pb-3">
+                    <h1 class="text-center pb-3"
+                        style="color: #214151; font-size: 5vw; font-weight: 700; letter-spacing: 7px;">CONTACT</h1>
+                    <div class="card no-border"
+                        style="display: flex; background:#a2d0c1;color:#fff;box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.15);">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h5>Interested doing some open source project with me?</h5>
+                                <a style="padding:10px; color: #fff;" class="btn btn-lg justify-content-end"
+                                    href="mailto:egierdian1@gmail.com"><i class="fa fa-envelope"
+                                        aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom:-55px; padding-top:20px;">
+            <div class="col-12 col-md-12">
+                <iframe style="width: 100%;" class="no-border"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.857539556565!2d107.5556200143373!3d-6.907632969521763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e5c214e7bbc5%3A0x303e94d5350c6d9b!2sJl.%20Rancabentang%2C%20Cibeureum%2C%20Kec.%20Cimahi%20Sel.%2C%20Kota%20Cimahi%2C%20Jawa%20Barat%2040535!5e0!3m2!1sid!2sid!4v1617445019940!5m2!1sid!2sid"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- End contact -->
+
     <footer class="custom-footer mt-5">
         <div class="container">
-            <p>Made from Tjimahi</p>
-            <a class="btn" href="https://github.com/egierdian">Egi Erdian</a>
+            <p>Created with ♥ by Egi Erdian</p>
         </div>
     </footer>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="js/nav.js"></script>
-    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
