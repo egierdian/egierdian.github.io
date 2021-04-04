@@ -26,7 +26,7 @@ body {
 
 /* Profil */
 #profil {
-    background: #eff7e1;
+    background: #f7f7f7;
     /* opacity: 0.3; */
     display: flex;
     align-items: center;
@@ -40,7 +40,7 @@ body {
 
 /* Portfolio */
 #portfolio {
-    background: #eff7e1;
+    background: #f7f7f7;
     min-height: 600px;
 }
 /* Contact */
@@ -50,7 +50,6 @@ body {
 }
 
 /* Footer */
-/* footer */
 footer {
     padding-top: 50px;
 }
