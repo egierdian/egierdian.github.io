@@ -23,7 +23,8 @@
 
     <!-- FA -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <title>I'M EGI ERDIAN</title>
 </head>
 
@@ -66,16 +67,17 @@
                     </div>
                     <h1 class="text-center"
                         style="color: #214151; font-size: 7vw; font-weight: 700; letter-spacing: 7px;">EGIERDIAN</h1>
-                    <p class="text-center" style="color: #214151;">
-                        WEB DEVELOPER | CIMAHI, INDONESIAN
+                    <p class="text-center" style="color: #214151; font-size: 3vw; margin-top:-5px;">
+                        I'm <span id="typed"></span>
                     </p>
                     <div class="col-12 text-center">
-                        <a class="btn btn-lg " style="padding: 0 15px; color:#214151;" href="https://github.com/egierdian"><i class="fa fa-github"
+                        <a class="btn btn-lg " style="padding: 0 15px; color:#214151;"
+                            href="https://github.com/egierdian"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        <a class="btn btn-lg " style="padding: 0 15px; color:#214151;"
+                            href="https://www.linkedin.com/in/egi-erdian-21a35a196/"><i class="fa fa-linkedin"
                                 aria-hidden="true"></i></a>
-                        <a class="btn btn-lg " style="padding: 0 15px; color:#214151;" href="https://www.linkedin.com/in/egi-erdian-21a35a196/"><i
-                                class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        <a class="btn btn-lg " style="padding: 0 15px; color:#214151;" href="https://fb.com/egi3rdian"><i
-                                class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a class="btn btn-lg " style="padding: 0 15px; color:#214151;"
+                            href="https://fb.com/egi3rdian"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
@@ -145,7 +147,7 @@
                         <div class="card-body">
                             <div class="d-flex justify-content-between">
                                 <h5>Caritakeun | Design landing page</h5>
-                                        <a style="padding:10px; color: #214151;" class="btn btn-lg justify-content-end"
+                                <a style="padding:10px; color: #214151;" class="btn btn-lg justify-content-end"
                                     href="https://github.com/egierdian/caritakeun"><i class="fa fa-github"
                                         aria-hidden="true"></i></a>
                             </div>
@@ -158,7 +160,7 @@
                         <div class="card-body">
                             <div class="d-flex justify-content-between">
                                 <h5>Alquranku (PWA)</h5>
-                                        <a style="padding:10px; color: #214151;" class="btn btn-lg justify-content-end"
+                                <a style="padding:10px; color: #214151;" class="btn btn-lg justify-content-end"
                                     href="https://github.com/egierdian/pwa-alquran-ku"><i class="fa fa-github"
                                         aria-hidden="true"></i></a>
                             </div>
@@ -171,7 +173,7 @@
                         <div class="card-body">
                             <div class="d-flex justify-content-between">
                                 <h5>disawerin | Clone saweria</h5>
-                                        <a style="padding:10px; color: #214151;" class="btn btn-lg justify-content-end"
+                                <a style="padding:10px; color: #214151;" class="btn btn-lg justify-content-end"
                                     href="https://github.com/egierdian/disawerin"><i class="fa fa-github"
                                         aria-hidden="true"></i></a>
                             </div>
@@ -184,7 +186,7 @@
                         <div class="card-body">
                             <div class="d-flex justify-content-between">
                                 <h5>Aplikasi Sistem Administrasi Penjualan</h5>
-                                        <a style="padding:10px; color: #214151;" class="btn btn-lg justify-content-end"
+                                <a style="padding:10px; color: #214151;" class="btn btn-lg justify-content-end"
                                     href="https://github.com/egierdian/penjualan-buku-php"><i class="fa fa-github"
                                         aria-hidden="true"></i></a>
                             </div>
@@ -197,7 +199,7 @@
                         <div class="card-body">
                             <div class="d-flex justify-content-between">
                                 <h5>Informasi Covid</h5>
-                                        <a style="padding:10px; color: #214151;" class="btn btn-lg justify-content-end"
+                                <a style="padding:10px; color: #214151;" class="btn btn-lg justify-content-end"
                                     href="https://github.com/egierdian/web-covid-19"><i class="fa fa-github"
                                         aria-hidden="true"></i></a>
                             </div>
@@ -209,7 +211,14 @@
         </div>
     </section>
     <!-- End portfolio -->
-
+    <script>
+        var typed = new Typed("#typed",{
+            strings: ["Web Developer","Junior Programmer"],
+            typeSpeed: 50,
+            startDelay: 120,
+            loop: true            
+        });
+    </script>
     <!-- Contact -->
     <section id="contact" class="pt-5">
         <div class="container">
@@ -240,7 +249,6 @@
         </div>
     </section>
     <!-- End contact -->
-
     <footer class="custom-footer mt-5">
         <div class="container">
             <p>Created with ♥ by Egi Erdian</p>
